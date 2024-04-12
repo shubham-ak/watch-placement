@@ -25,9 +25,6 @@ jobs:
       - name: Vite build
         uses: npm run build
 
-      - name: Run project
-        run: npm start
-
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
